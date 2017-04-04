@@ -48,7 +48,7 @@ export default class CameraScreen extends Component {
           style={styles.preview}
           aspect={Camera.constants.Aspect.fill}>
           <TouchableHighlight onPress={this.takePicture.bind(this)}>
-            <Text style={styles.capture} >[CAPTURE]</Text>
+            <Text style={styles.capture} >[CAPTUREE]</Text>
           </TouchableHighlight>
           <Text style={styles.capture} onPress={this.startRecording.bind(this)}>[Video]</Text>
         </Camera>
