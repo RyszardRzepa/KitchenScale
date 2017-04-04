@@ -4,7 +4,6 @@ import Styles from './Styles/NavigationContainerStyles'
 import NavigationDrawer from './NavigationDrawer'
 
 // screens identified by the router
-import LaunchScreen from '../Containers/LaunchScreen'
 import Camera from '../Containers/ListviewSectionsExample'
 /* **************************
 * Documentation: https://github.com/aksonov/react-native-router-flux

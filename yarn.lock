@@ -398,7 +398,7 @@ babel-core@^6.17.0, babel-core@^6.21.0, babel-core@^6.24.0, babel-core@^6.7.2:
     slash "^1.0.0"
     source-map "^0.5.0"
 
-babel-eslint@^7.1.1:
+babel-eslint@^7.2.1:
   version "7.2.1"
   resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-7.2.1.tgz#079422eb73ba811e3ca0865ce87af29327f8c52f"
   dependencies:
@@ -1070,6 +1070,10 @@ backo2@1.0.2:
 balanced-match@^0.4.1:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-0.4.2.tgz#cb3f3e3c732dc0f01ee70b403f302e61d7709838"
+
+base-64@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/base-64/-/base-64-0.1.0.tgz#780a99c84e7d600260361511c4877613bf24f6bb"
 
 base64-arraybuffer@0.1.5:
   version "0.1.5"
@@ -2817,6 +2821,10 @@ ignite-animatable@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/ignite-animatable/-/ignite-animatable-0.3.1.tgz#8208a03b59b3f5e71b6e2624350ac9b90042a851"
 
+ignite-i18n@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/ignite-i18n/-/ignite-i18n-0.1.1.tgz#38e901788169f9a7b4eaaa73bbf7001c69e1b16c"
+
 ignite-ir-boilerplate-2016@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/ignite-ir-boilerplate-2016/-/ignite-ir-boilerplate-2016-0.2.1.tgz#3eb7c97bf28925348d2b132927f8db286aef0d8e"
@@ -4471,6 +4479,10 @@ react-native-animatable@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/react-native-animatable/-/react-native-animatable-1.1.1.tgz#00ddc72985f62f62a11a505abb1a06e77a92cd8a"
 
+"react-native-camera@git+https://github.com/lwansbrough/react-native-camera.git":
+  version "0.6.0"
+  resolved "git+https://github.com/lwansbrough/react-native-camera.git#4d2dcf74a57508b538b05ffc6c1345c03992a6d5"
+
 react-native-config@^0.2.1:
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/react-native-config/-/react-native-config-0.2.5.tgz#1d804b77de381a02aa35974c95e1bec0c8286485"
@@ -4495,6 +4507,17 @@ react-native-experimental-navigation@0.26.x:
     clamp "^1.0.1"
     fbjs "^0.8.1"
     react-addons-pure-render-mixin "^15.0.2"
+
+react-native-fetch-blob@^0.10.4:
+  version "0.10.4"
+  resolved "https://registry.yarnpkg.com/react-native-fetch-blob/-/react-native-fetch-blob-0.10.4.tgz#7e2d2096ea79dbc8da96e1915cf862f6afe2d0fd"
+  dependencies:
+    base-64 "0.1.0"
+    glob "^7.0.6"
+
+react-native-i18n@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-i18n/-/react-native-i18n-1.0.0.tgz#0c407d9ebb846aae1aa5e05de6503008553f02fd"
 
 react-native-mock@^0.3.1:
   version "0.3.1"
